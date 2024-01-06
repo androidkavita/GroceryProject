@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1018498776366",
+    "project_id": "easy-vegie",
+    "storage_bucket": "easy-vegie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018498776366:android:8e1e425a4b2e51654a0ebf",
+        "android_client_info": {
+          "package_name": "com.easym.vegie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018498776366-pb8vsg323h5pgl3pggas2tqq6oqbe68u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easym.vegie",
+            "certificate_hash": "b5b8cb24c666263be37bc0bf823ed4acee8515ef"
+          }
+        },
+        {
+          "client_id": "1018498776366-h6ao2gv4kjrdkrk8mis01rsfgkg638oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWYZFmjWgJ3D-q1CBdo_3n_fnJjrouGb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018498776366-h6ao2gv4kjrdkrk8mis01rsfgkg638oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_back_ground"
+        android:orientation="vertical"
+        tools:context=".fragment.SearchFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center"
+            android:padding="@dimen/_16sdp">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:padding="@dimen/_8sdp"
+                android:background="@drawable/shop_by_category_background">
+
+                <EditText
+                    android:id="@+id/et_Search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/shopByCategoryBackground"
+                    android:drawableLeft="@drawable/search_nav"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:fontFamily="@font/avenirnextltpro_regular"
+                    android:hint="@string/search_hint"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="end">
+
+                <ImageView
+                    android:id="@+id/iv_ChangeLang"
+                    android:layout_width="@dimen/_28sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:src="@drawable/lang" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_SearchItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</layout>

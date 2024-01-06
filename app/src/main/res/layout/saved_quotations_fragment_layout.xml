@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_16sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/primary_outline_with_white_background">
+
+            <TextView
+                android:id="@+id/tv_shopByCategory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/shopByCategory"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenirnextltpro_bold"/>
+
+            <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/tv_shopByQuotation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/shopByQuotation"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenirnextltpro_bold"/>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/savedQuotations"
+                android:layout_centerVertical="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenirnextltpro_bold"/>
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:src="@drawable/lang"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            android:weightSum="1"
+            android:layout_marginTop="@dimen/_8sdp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_1sdp"
+                android:background="@color/white"
+                android:padding="@dimen/_8sdp">
+
+                <TextView
+                    android:id="@+id/tv_OrderNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quotationNo"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/avenirnextltpro_regular"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_1sdp"
+                android:padding="@dimen/_8sdp">
+
+                <TextView
+                    android:id="@+id/tv_OrderDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/savedDate"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/avenirnextltpro_regular"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_1sdp"
+                android:padding="@dimen/_8sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/delete"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/avenirnextltpro_regular"/>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_SavedQuotations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:weightSum="5.5"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_ProductTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:padding="@dimen/_4sdp"
+            android:textSize="@dimen/_10sdp"
+            android:text="@string/product"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"/>
+
+       <!-- <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_UOMTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/uom"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:fontFamily="@font/avenirnextltpro_regular"
+            />-->
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_Price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:layout_weight="0.75"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"/>
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_QTYTilte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qty"
+            android:layout_weight="0.75"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"/>
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_TotalPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/totalPrice"
+            android:layout_weight="0.735"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"/>
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_AddToCart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addToCart"
+            android:layout_weight="0.735"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"/>
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_Save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

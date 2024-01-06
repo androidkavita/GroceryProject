@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.UserAddressListActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_address"
+            android:textColor="@color/black"
+            android:fontFamily="@font/avenirnextltpro_regular"
+            android:padding="@dimen/_8sdp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_UserAddress"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:listitem="@layout/address_list"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_AddLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:background="@drawable/btn_solid_rounded"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="+ Add Location"
+                android:textColor="@color/white"
+                android:fontFamily="@font/avenirnextltpro_regular"/>
+
+            <TextView
+                android:id="@+id/tv_Next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:background="@drawable/btn_solid_rounded"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:fontFamily="@font/avenirnextltpro_regular"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

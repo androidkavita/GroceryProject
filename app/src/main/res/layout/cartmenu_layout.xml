@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="45dp"
+    android:layout_height="32dp"
+    android:padding="1dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_gravity="center"
+        android:id="@+id/cartimages"
+        android:src="@drawable/cart_white"/>
+
+
+    <TextView
+        android:id="@+id/cart_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_toRightOf="@+id/cartimages"
+        android:background="@drawable/google_round"
+        android:textColor="@color/white_two"
+        android:textSize="12sp"
+        android:text="0"
+        tools:text="0"
+        android:fontFamily="@font/avenirnextltpro_regular"/>
+
+</RelativeLayout>

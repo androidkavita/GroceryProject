@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006401</color>
+    <color name="colorPrimaryDark">#006401</color>
+    <color name="colorAccent">#006401</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="mainColor">#3d4b6e</color>
+    <color name="greyLight6">#e0e0e0</color>
+    <color name="grey">#969696</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="gray">#cc222222</color>
+    <color name="golden">#daa735</color>
+    <color name="grey1">#C0C0C0</color>
+    <color name="grey2">#808080</color>
+    <color name="grey_bottomColor">#767676</color>
+    <color name="red">#ff0000</color>
+    <color name="white_two">#d5d5d5</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="material_black">#ff000000</color>
+    <color name="grey_lite">#E0E0E0</color>
+    <color name="grey_back_ground">#e2e3eb</color>
+
+    <color name="shopByCategoryBackground">#F4F3F8</color>
+    <color name="applyTextColorCode">#FD790C</color>
+
+    <color name="crossButtonBackgroundColor">#323A47</color>
+    <color name="colorGreen">#008000</color>
+    <color name="green">#006401</color>
+    <color name="grey_dark">#535353</color>
+    <color name="category_title_background">#E1E1ED</color>
+    <color name="ongoingTextColor">#FF7C06</color>
+    <color name="deliveredTextColor">#12C100</color>
+    <color name="address_button_background">#F5F5F5</color>
+
+</resources>
